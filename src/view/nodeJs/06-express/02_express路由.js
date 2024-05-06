@@ -18,7 +18,7 @@ app.post('/login', (req, res) => {
 app.all('/test', (req, res) => {
   res.send('test')
 })
-// 404响应
+// 404响应（托底规则）
 app.all('*', (req, res) => {
   res.send('404 not Found')
 })

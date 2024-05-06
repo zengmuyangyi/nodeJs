@@ -41,5 +41,5 @@ app.get('/singer/:id.html', (req, res) => {
 })
 // 4、启动服务
 app.listen(3000, () => {
-  console.log('务已启动，3000端口监听中。。。')
+  console.log('服务已启动，3000端口监听中。。。')
 })
