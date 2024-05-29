@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>测试</h2>
-    <img src="/images/guide4.png" alt="">
+    <% if(isLogin){ %>
+        <span>欢迎回来</span>
+        <% } else { %>
+        <button>登录</button>  <button>注册</button>
+    <% } %>
 </body>
 </html>
