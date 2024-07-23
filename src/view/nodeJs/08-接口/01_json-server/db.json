@@ -1,0 +1,9 @@
+{
+    "song": [
+        {"id": 1, "title": "晴天", "singer": "周杰伦"},
+        {"id": 2, "title": "许愿", "singer": "周杰伦"},
+        {"id": 3, "title": "夜访吸血鬼", "singer": "五月天"},
+        {"id": 4, "title": "恋恋", "singer": "五月天"},
+        {"id": 5, "title": "当", "singer": "动力火车"}
+    ]
+}
