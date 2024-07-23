@@ -8,7 +8,7 @@ const mongoose = require('mongoose')
 // options: { user: 'root', pass: '<PASSWORD>' }
 mongoose.connect('mongodb://127.0.0.1:27017/bilibili')
 // 4.设置回调
-mongoose.connection.on('open', () => {
+mongoose.connection.once('open', () => {
   console.log('连接成功')
 })
 mongoose.connection.on('error', () => {

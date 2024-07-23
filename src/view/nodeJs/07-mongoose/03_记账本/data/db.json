@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "id": "h3F21ZHXo",
+      "title": "吃饭",
+      "time": "2024-05-29",
+      "type": "-1",
+      "account": "20",
+      "remarks": "吃饭支出20元"
+    },
+    {
+      "id": "BJgJhP2pI",
+      "title": "买烟",
+      "time": "2024-05-29",
+      "type": "-1",
+      "account": "17",
+      "remarks": "买了一包泰山，支出17元"
+    },
+    {
+      "id": "LhHqqnDyR",
+      "title": "发薪日",
+      "time": "2024-05-31",
+      "type": "1",
+      "account": "3000",
+      "remarks": "今日发放部分工资，工资金额3000"
+    }
+  ]
+}
